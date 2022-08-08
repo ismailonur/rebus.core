@@ -15,9 +15,8 @@ var (
 )
 
 func init() {
-	if len(AppVersion) == 0 {
+	if len(AppVersion) == 0
 		AppVersion = "dev"
-	}
 
 	GoVersion = runtime.Version()
 	GoArch = runtime.GOARCH
